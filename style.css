@@ -1,0 +1,63 @@
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO DO SITE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #034489;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #263b5e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(143, 177, 246);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* TEXTOS */
+main {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #263b5e;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #701b1b;
+}
+
+/* IMAGEM */
+img {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
